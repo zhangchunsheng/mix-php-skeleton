@@ -1,0 +1,28 @@
+{
+  "name": "mix/guzzle",
+  "description": "Guzzle that support the Swoole coroutine",
+  "type": "library",
+  "keywords": [
+    "mix",
+    "guzzle",
+    "swoole",
+    "coroutine"
+  ],
+  "homepage": "http://www.mixphp.cn/",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "liu,jian",
+      "email": "coder.keda@gmail.com"
+    }
+  ],
+  "require": {
+    "funkjedi/composer-include-files": "^1.0",
+    "guzzlehttp/guzzle": ">=6.4,<=6.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Mix\\Guzzle\\": "src/"
+    }
+  }
+}

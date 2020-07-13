@@ -1,0 +1,2651 @@
+[
+    {
+        "name": "firebase/php-jwt",
+        "version": "v5.2.0",
+        "version_normalized": "5.2.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/firebase/php-jwt.git",
+            "reference": "feb0e820b8436873675fd3aca04f3728eb2185cb"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/firebase/php-jwt/zipball/feb0e820b8436873675fd3aca04f3728eb2185cb",
+            "reference": "feb0e820b8436873675fd3aca04f3728eb2185cb",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": ">=4.8 <=9"
+        },
+        "time": "2020-03-25T18:49:23+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Firebase\\JWT\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Neuman Vong",
+                "email": "neuman+pear@twilio.com",
+                "role": "Developer"
+            },
+            {
+                "name": "Anant Narayanan",
+                "email": "anant@php.net",
+                "role": "Developer"
+            }
+        ],
+        "description": "A simple library to encode and decode JSON Web Tokens (JWT) in PHP. Should conform to the current spec.",
+        "homepage": "https://github.com/firebase/php-jwt",
+        "keywords": [
+            "jwt",
+            "php"
+        ]
+    },
+    {
+        "name": "funkjedi/composer-include-files",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/funkjedi/composer-include-files.git",
+            "reference": "5e96f2e46537d99b8b72662796955dba739e251f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/funkjedi/composer-include-files/zipball/5e96f2e46537d99b8b72662796955dba739e251f",
+            "reference": "5e96f2e46537d99b8b72662796955dba739e251f",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "composer-plugin-api": "^1.0"
+        },
+        "time": "2016-12-23T18:15:30+00:00",
+        "type": "composer-plugin",
+        "extra": {
+            "class": "ComposerIncludeFiles\\Plugin"
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "ComposerIncludeFiles\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Tim Robertson",
+                "email": "funkjedi@gmail.com"
+            }
+        ],
+        "description": "Include files at a higher priority than autoload files.",
+        "homepage": "https://github.com/funkjedi/composer-include-files",
+        "keywords": [
+            "autoload",
+            "composer"
+        ]
+    },
+    {
+        "name": "guzzlehttp/guzzle",
+        "version": "6.5.0",
+        "version_normalized": "6.5.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/guzzle/guzzle.git",
+            "reference": "dbc2bc3a293ed6b1ae08a3651e2bfd213d19b6a5"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/guzzle/guzzle/zipball/dbc2bc3a293ed6b1ae08a3651e2bfd213d19b6a5",
+            "reference": "dbc2bc3a293ed6b1ae08a3651e2bfd213d19b6a5",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "ext-json": "*",
+            "guzzlehttp/promises": "^1.0",
+            "guzzlehttp/psr7": "^1.6.1",
+            "php": ">=5.5"
+        },
+        "require-dev": {
+            "ext-curl": "*",
+            "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.4 || ^7.0",
+            "psr/log": "^1.1"
+        },
+        "suggest": {
+            "ext-intl": "Required for Internationalized Domain Name (IDN) support",
+            "psr/log": "Required for using the Log middleware"
+        },
+        "time": "2019-12-07T18:20:45+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "6.5-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "GuzzleHttp\\": "src/"
+            },
+            "files": [
+                "src/functions_include.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Michael Dowling",
+                "email": "mtdowling@gmail.com",
+                "homepage": "https://github.com/mtdowling"
+            }
+        ],
+        "description": "Guzzle is a PHP HTTP client library",
+        "homepage": "http://guzzlephp.org/",
+        "keywords": [
+            "client",
+            "curl",
+            "framework",
+            "http",
+            "http client",
+            "rest",
+            "web service"
+        ]
+    },
+    {
+        "name": "guzzlehttp/promises",
+        "version": "v1.3.1",
+        "version_normalized": "1.3.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/guzzle/promises.git",
+            "reference": "a59da6cf61d80060647ff4d3eb2c03a2bc694646"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/guzzle/promises/zipball/a59da6cf61d80060647ff4d3eb2c03a2bc694646",
+            "reference": "a59da6cf61d80060647ff4d3eb2c03a2bc694646",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "php": ">=5.5.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^4.0"
+        },
+        "time": "2016-12-20T10:07:11+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.4-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "GuzzleHttp\\Promise\\": "src/"
+            },
+            "files": [
+                "src/functions_include.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Michael Dowling",
+                "email": "mtdowling@gmail.com",
+                "homepage": "https://github.com/mtdowling"
+            }
+        ],
+        "description": "Guzzle promises library",
+        "keywords": [
+            "promise"
+        ]
+    },
+    {
+        "name": "guzzlehttp/psr7",
+        "version": "1.6.1",
+        "version_normalized": "1.6.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/guzzle/psr7.git",
+            "reference": "239400de7a173fe9901b9ac7c06497751f00727a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/guzzle/psr7/zipball/239400de7a173fe9901b9ac7c06497751f00727a",
+            "reference": "239400de7a173fe9901b9ac7c06497751f00727a",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "php": ">=5.4.0",
+            "psr/http-message": "~1.0",
+            "ralouphie/getallheaders": "^2.0.5 || ^3.0.0"
+        },
+        "provide": {
+            "psr/http-message-implementation": "1.0"
+        },
+        "require-dev": {
+            "ext-zlib": "*",
+            "phpunit/phpunit": "~4.8.36 || ^5.7.27 || ^6.5.8"
+        },
+        "suggest": {
+            "zendframework/zend-httphandlerrunner": "Emit PSR-7 responses"
+        },
+        "time": "2019-07-01T23:21:34+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.6-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "GuzzleHttp\\Psr7\\": "src/"
+            },
+            "files": [
+                "src/functions_include.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Michael Dowling",
+                "email": "mtdowling@gmail.com",
+                "homepage": "https://github.com/mtdowling"
+            },
+            {
+                "name": "Tobias Schultze",
+                "homepage": "https://github.com/Tobion"
+            }
+        ],
+        "description": "PSR-7 message implementation that also provides common utility methods",
+        "keywords": [
+            "http",
+            "message",
+            "psr-7",
+            "request",
+            "response",
+            "stream",
+            "uri",
+            "url"
+        ]
+    },
+    {
+        "name": "hassankhan/config",
+        "version": "v2.1.0",
+        "version_normalized": "2.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/hassankhan/config.git",
+            "reference": "16fa4d3320ac9bb611dda0c8ea980edb58d227c9"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/hassankhan/config/zipball/16fa4d3320ac9bb611dda0c8ea980edb58d227c9",
+            "reference": "16fa4d3320ac9bb611dda0c8ea980edb58d227c9",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "php": ">=5.5.9"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "~4.8 || ~5.7 || ~6.5 || ~7.5",
+            "scrutinizer/ocular": "~1.1",
+            "squizlabs/php_codesniffer": "~2.2",
+            "symfony/yaml": "~3.4"
+        },
+        "suggest": {
+            "symfony/yaml": "~3.4"
+        },
+        "time": "2019-09-01T15:51:42+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Noodlehaus\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Hassan Khan",
+                "homepage": "http://hassankhan.me/",
+                "role": "Developer"
+            }
+        ],
+        "description": "Lightweight configuration file loader that supports PHP, INI, XML, JSON, and YAML files",
+        "homepage": "http://hassankhan.me/config/",
+        "keywords": [
+            "config",
+            "configuration",
+            "ini",
+            "json",
+            "microphp",
+            "unframework",
+            "xml",
+            "yaml",
+            "yml"
+        ]
+    },
+    {
+        "name": "mix/auth",
+        "version": "v2.2.5",
+        "version_normalized": "2.2.5.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/mix-php/auth.git",
+            "reference": "9600e56dbd7bda31fd2f0fa84b39cc1682a91f4e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/mix-php/auth/zipball/9600e56dbd7bda31fd2f0fa84b39cc1682a91f4e",
+            "reference": "9600e56dbd7bda31fd2f0fa84b39cc1682a91f4e",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "firebase/php-jwt": "^5.0",
+            "mix/bean": "~2.2.0",
+            "php": ">=7.0.0",
+            "psr/http-message": "^1.0"
+        },
+        "time": "2020-05-27T09:55:50+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Mix\\Auth\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache-2.0"
+        ],
+        "authors": [
+            {
+                "name": "liu,jian",
+                "email": "coder.keda@gmail.com"
+            }
+        ],
+        "description": "JWT authorization library based on PSR-7 standard",
+        "homepage": "http://www.mixphp.cn/",
+        "keywords": [
+            "auth",
+            "jwt",
+            "mix",
+            "psr"
+        ]
+    },
+    {
+        "name": "mix/bean",
+        "version": "v2.2.5",
+        "version_normalized": "2.2.5.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/mix-php/bean.git",
+            "reference": "8fb5caf5de96c78310e5f8434380af346bb8adf1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/mix-php/bean/zipball/8fb5caf5de96c78310e5f8434380af346bb8adf1",
+            "reference": "8fb5caf5de96c78310e5f8434380af346bb8adf1",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "php": ">=7.0.0",
+            "php-di/phpdoc-reader": "~2.1",
+            "psr/container": "~1.0"
+        },
+        "time": "2020-06-09T12:40:11+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Mix\\Bean\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache-2.0"
+        ],
+        "authors": [
+            {
+                "name": "liu,jian",
+                "email": "coder.keda@gmail.com"
+            }
+        ],
+        "description": "DI, ICO container, reference spring bean",
+        "homepage": "http://www.mixphp.cn/",
+        "keywords": [
+            "bean",
+            "di",
+            "ico",
+            "mix"
+        ]
+    },
+    {
+        "name": "mix/cache",
+        "version": "v2.2.5",
+        "version_normalized": "2.2.5.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/mix-php/cache.git",
+            "reference": "51a9d30fee148d0b81cdd16d62d6e0a0efd709d3"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/mix-php/cache/zipball/51a9d30fee148d0b81cdd16d62d6e0a0efd709d3",
+            "reference": "51a9d30fee148d0b81cdd16d62d6e0a0efd709d3",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "mix/redis": "~2.2.0",
+            "php": ">=7.0.0",
+            "psr/simple-cache": "~1.0"
+        },
+        "time": "2020-05-27T09:55:50+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Mix\\Cache\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache-2.0"
+        ],
+        "authors": [
+            {
+                "name": "liu,jian",
+                "email": "coder.keda@gmail.com"
+            }
+        ],
+        "description": "PSR-6 standard based cache library, support file, redis storage",
+        "homepage": "http://www.mixphp.cn/",
+        "keywords": [
+            "cache",
+            "file",
+            "mix",
+            "psr",
+            "redis"
+        ]
+    },
+    {
+        "name": "mix/concurrent",
+        "version": "v2.2.5",
+        "version_normalized": "2.2.5.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/mix-php/concurrent.git",
+            "reference": "44e96d7d1dbb1d06e4cafceafc398c6a0dc5be9d"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/mix-php/concurrent/zipball/44e96d7d1dbb1d06e4cafceafc398c6a0dc5be9d",
+            "reference": "44e96d7d1dbb1d06e4cafceafc398c6a0dc5be9d",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "ext-swoole": ">=4.4.4",
+            "php": ">=7.0.0"
+        },
+        "time": "2020-05-27T09:55:50+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Mix\\Concurrent\\": "src/"
+            },
+            "files": [
+                "src/functions.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache-2.0"
+        ],
+        "authors": [
+            {
+                "name": "liu,jian",
+                "email": "coder.keda@gmail.com"
+            }
+        ],
+        "description": "Coroutine concurrency library based on Swoole",
+        "homepage": "http://www.mixphp.cn/",
+        "keywords": [
+            "concurrent",
+            "coroutine",
+            "mix",
+            "swoole"
+        ]
+    },
+    {
+        "name": "mix/console",
+        "version": "v2.2.5",
+        "version_normalized": "2.2.5.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/mix-php/console.git",
+            "reference": "aee635e1b396120f40736bb0d29f1fc7ee6cfd49"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/mix-php/console/zipball/aee635e1b396120f40736bb0d29f1fc7ee6cfd49",
+            "reference": "aee635e1b396120f40736bb0d29f1fc7ee6cfd49",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "mix/bean": "~2.2.0",
+            "php": ">=7.0.0",
+            "psr/event-dispatcher": "^1.0",
+            "psr/log": "~1.0"
+        },
+        "time": "2020-06-09T08:57:34+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Mix\\Console\\": "src/"
+            },
+            "classmap": [
+                "src/Mix.php"
+            ],
+            "files": [
+                "src/functions.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache-2.0"
+        ],
+        "authors": [
+            {
+                "name": "liu,jian",
+                "email": "coder.keda@gmail.com"
+            }
+        ],
+        "description": "Command line console program development library",
+        "homepage": "http://www.mixphp.cn/",
+        "keywords": [
+            "cli",
+            "console",
+            "mix"
+        ]
+    },
+    {
+        "name": "mix/context",
+        "version": "v2.2.1",
+        "version_normalized": "2.2.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/mix-php/context.git",
+            "reference": "fe797d7ff958ad752dcfccee28bce73ba582e415"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/mix-php/context/zipball/fe797d7ff958ad752dcfccee28bce73ba582e415",
+            "reference": "fe797d7ff958ad752dcfccee28bce73ba582e415",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "php": ">=7.2.0"
+        },
+        "time": "2020-05-11T09:59:55+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Mix\\Context\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache-2.0"
+        ],
+        "authors": [
+            {
+                "name": "liu,jian",
+                "email": "coder.keda@gmail.com"
+            }
+        ],
+        "description": "Context processing library",
+        "homepage": "http://www.mixphp.cn/",
+        "keywords": [
+            "Context",
+            "mix"
+        ]
+    },
+    {
+        "name": "mix/database",
+        "version": "v2.2.5",
+        "version_normalized": "2.2.5.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/mix-php/database.git",
+            "reference": "9c03fea0cdd5c372b90b2d61f9c90e7d62e3e4fb"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/mix-php/database/zipball/9c03fea0cdd5c372b90b2d61f9c90e7d62e3e4fb",
+            "reference": "9c03fea0cdd5c372b90b2d61f9c90e7d62e3e4fb",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "ext-pdo": "*",
+            "ext-swoole": ">=4.4.4",
+            "mix/bean": "~2.2.0",
+            "mix/pool": "~2.2.0",
+            "php": ">=7.0.0",
+            "psr/event-dispatcher": "^1.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^7.0.0"
+        },
+        "time": "2020-06-04T04:24:14+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Mix\\Database\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache-2.0"
+        ],
+        "authors": [
+            {
+                "name": "liu,jian",
+                "email": "coder.keda@gmail.com"
+            }
+        ],
+        "description": "Coroutine database library based on Swoole, built-in connection pool",
+        "homepage": "http://www.mixphp.cn/",
+        "keywords": [
+            "database",
+            "mix",
+            "mysql",
+            "swoole"
+        ]
+    },
+    {
+        "name": "mix/event",
+        "version": "v2.2.5",
+        "version_normalized": "2.2.5.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/mix-php/event.git",
+            "reference": "bb68cffba7c717974e0ea4893e4b73dc17378695"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/mix-php/event/zipball/bb68cffba7c717974e0ea4893e4b73dc17378695",
+            "reference": "bb68cffba7c717974e0ea4893e4b73dc17378695",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "php": ">=7.2.0",
+            "psr/event-dispatcher": "^1.0"
+        },
+        "time": "2020-05-27T09:55:50+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Mix\\Event\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache-2.0"
+        ],
+        "authors": [
+            {
+                "name": "liu,jian",
+                "email": "coder.keda@gmail.com"
+            }
+        ],
+        "description": "Event dispatch library based on PSR-14 standard",
+        "homepage": "http://www.mixphp.cn/",
+        "keywords": [
+            "dispatch",
+            "event",
+            "mix",
+            "psr"
+        ]
+    },
+    {
+        "name": "mix/fast-route",
+        "version": "v2.2.6",
+        "version_normalized": "2.2.6.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/mix-php/fast-route.git",
+            "reference": "591d3281ea274e2c935da8341f1d03f19836f7f5"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/mix-php/fast-route/zipball/591d3281ea274e2c935da8341f1d03f19836f7f5",
+            "reference": "591d3281ea274e2c935da8341f1d03f19836f7f5",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "mix/http-message": "~2.2.0",
+            "mix/http-server": "~2.2.0",
+            "mix/micro-route": "~2.2.0",
+            "nikic/fast-route": "^1.3",
+            "php": ">=7.0.0"
+        },
+        "require-dev": {
+            "mix/guzzle": "~2.2.0",
+            "phpunit/phpunit": "^7.0.0"
+        },
+        "time": "2020-06-30T02:57:24+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Mix\\FastRoute\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache-2.0"
+        ],
+        "authors": [
+            {
+                "name": "liu,jian",
+                "email": "coder.keda@gmail.com"
+            }
+        ],
+        "description": "Routing library based on Fast-Route, following PSR-7 / PSR-15 standard",
+        "homepage": "http://www.mixphp.cn/",
+        "keywords": [
+            "FastRoute",
+            "mix",
+            "psr",
+            "route"
+        ]
+    },
+    {
+        "name": "mix/guzzle",
+        "version": "v2.2.2",
+        "version_normalized": "2.2.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/mix-php/guzzle.git",
+            "reference": "b6cf88dea62267a71bf0fdb0de9d83b63ed53cdd"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/mix-php/guzzle/zipball/b6cf88dea62267a71bf0fdb0de9d83b63ed53cdd",
+            "reference": "b6cf88dea62267a71bf0fdb0de9d83b63ed53cdd",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "funkjedi/composer-include-files": "^1.0",
+            "guzzlehttp/guzzle": ">=6.4,<=6.5"
+        },
+        "time": "2020-05-14T07:34:22+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Mix\\Guzzle\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache-2.0"
+        ],
+        "authors": [
+            {
+                "name": "liu,jian",
+                "email": "coder.keda@gmail.com"
+            }
+        ],
+        "description": "Guzzle that support the Swoole coroutine",
+        "homepage": "http://www.mixphp.cn/",
+        "keywords": [
+            "Guzzle",
+            "coroutine",
+            "mix",
+            "swoole"
+        ]
+    },
+    {
+        "name": "mix/helper",
+        "version": "v2.2.2",
+        "version_normalized": "2.2.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/mix-php/helper.git",
+            "reference": "554e4fae3f4607bd51ff381112fa0a0c7eb99b44"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/mix-php/helper/zipball/554e4fae3f4607bd51ff381112fa0a0c7eb99b44",
+            "reference": "554e4fae3f4607bd51ff381112fa0a0c7eb99b44",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "ext-json": "*",
+            "php": ">=7.0.0"
+        },
+        "time": "2020-05-11T09:59:55+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Mix\\Helper\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache-2.0"
+        ],
+        "authors": [
+            {
+                "name": "liu,jian",
+                "email": "coder.keda@gmail.com"
+            }
+        ],
+        "description": "Common helper methods",
+        "homepage": "http://www.mixphp.cn/",
+        "keywords": [
+            "helper",
+            "mix"
+        ]
+    },
+    {
+        "name": "mix/http-message",
+        "version": "v2.2.5",
+        "version_normalized": "2.2.5.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/mix-php/http-message.git",
+            "reference": "b3fdb8671c81b610ed8841e2e61e4b11180eaf54"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/mix-php/http-message/zipball/b3fdb8671c81b610ed8841e2e61e4b11180eaf54",
+            "reference": "b3fdb8671c81b610ed8841e2e61e4b11180eaf54",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "ext-swoole": ">=4.4.4",
+            "mix/context": "~2.2.0",
+            "php": ">=7.0.0",
+            "psr/http-factory": "^1.0",
+            "psr/http-message": "^1.0"
+        },
+        "time": "2020-05-27T09:55:50+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Mix\\Http\\Message\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache-2.0"
+        ],
+        "authors": [
+            {
+                "name": "liu,jian",
+                "email": "coder.keda@gmail.com"
+            }
+        ],
+        "description": "Http message library based on PSR-7 / PSR-17 standard, support Swoole",
+        "homepage": "http://www.mixphp.cn/",
+        "keywords": [
+            "http",
+            "message",
+            "mix",
+            "psr",
+            "swoole"
+        ]
+    },
+    {
+        "name": "mix/http-server",
+        "version": "v2.2.5",
+        "version_normalized": "2.2.5.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/mix-php/http-server.git",
+            "reference": "7fdd5f9dab4ce2f6f684649fda52c9ba305a3c5d"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/mix-php/http-server/zipball/7fdd5f9dab4ce2f6f684649fda52c9ba305a3c5d",
+            "reference": "7fdd5f9dab4ce2f6f684649fda52c9ba305a3c5d",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "ext-swoole": ">=4.4.4",
+            "mix/http-message": "~2.2.0",
+            "mix/micro-server": "~2.2.0",
+            "php": ">=7.0.0",
+            "psr/http-server-handler": "^1.0",
+            "psr/http-server-middleware": "^1.0"
+        },
+        "require-dev": {
+            "mix/guzzle": "~2.2.0",
+            "phpunit/phpunit": "^7.0.0"
+        },
+        "time": "2020-06-09T10:36:34+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Mix\\Http\\Server\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache-2.0"
+        ],
+        "authors": [
+            {
+                "name": "liu,jian",
+                "email": "coder.keda@gmail.com"
+            }
+        ],
+        "description": "Http server library based on Swoole coroutine, following PSR-7 / PSR-15 standard",
+        "homepage": "http://www.mixphp.cn/",
+        "keywords": [
+            "coroutine",
+            "http",
+            "mix",
+            "server",
+            "swoole"
+        ]
+    },
+    {
+        "name": "mix/micro-route",
+        "version": "v2.2.5",
+        "version_normalized": "2.2.5.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/mix-php/micro-route.git",
+            "reference": "e2efb90f9cb571206a8b412c4127fa7237b6340c"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/mix-php/micro-route/zipball/e2efb90f9cb571206a8b412c4127fa7237b6340c",
+            "reference": "e2efb90f9cb571206a8b412c4127fa7237b6340c",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "mix/http-server": "~2.2.0",
+            "php": ">=7.0.0"
+        },
+        "time": "2020-06-09T09:50:23+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Mix\\Micro\\Route\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache-2.0"
+        ],
+        "authors": [
+            {
+                "name": "liu,jian",
+                "email": "coder.keda@gmail.com"
+            }
+        ],
+        "description": "Common interface for microservice route library",
+        "homepage": "http://www.mixphp.cn/",
+        "keywords": [
+            "Microservice",
+            "mix",
+            "route"
+        ]
+    },
+    {
+        "name": "mix/micro-server",
+        "version": "v2.2.5",
+        "version_normalized": "2.2.5.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/mix-php/micro-server.git",
+            "reference": "267f62d6cc1beba7aac2056fa00b8259624c49fa"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/mix-php/micro-server/zipball/267f62d6cc1beba7aac2056fa00b8259624c49fa",
+            "reference": "267f62d6cc1beba7aac2056fa00b8259624c49fa",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "php": ">=7.0.0"
+        },
+        "time": "2020-06-09T12:19:19+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Mix\\Micro\\Server\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache-2.0"
+        ],
+        "authors": [
+            {
+                "name": "liu,jian",
+                "email": "coder.keda@gmail.com"
+            }
+        ],
+        "description": "Common interface for microservice server library",
+        "homepage": "http://www.mixphp.cn/",
+        "keywords": [
+            "Microservice",
+            "mix",
+            "server"
+        ]
+    },
+    {
+        "name": "mix/monolog",
+        "version": "v2.2.5",
+        "version_normalized": "2.2.5.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/mix-php/monolog.git",
+            "reference": "09ae03cf36c7648a1564e7f7e52541d2dfbca138"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/mix-php/monolog/zipball/09ae03cf36c7648a1564e7f7e52541d2dfbca138",
+            "reference": "09ae03cf36c7648a1564e7f7e52541d2dfbca138",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "mix/console": "~2.2.0",
+            "monolog/monolog": "^2.0",
+            "php": ">=7.2.0"
+        },
+        "time": "2020-06-04T02:08:19+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Mix\\Monolog\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache-2.0"
+        ],
+        "authors": [
+            {
+                "name": "liu,jian",
+                "email": "coder.keda@gmail.com"
+            }
+        ],
+        "description": "Monolog support Swoole coroutine and cli console printing",
+        "homepage": "http://www.mixphp.cn/",
+        "keywords": [
+            "coroutine",
+            "log",
+            "mix",
+            "monolog",
+            "swoole"
+        ]
+    },
+    {
+        "name": "mix/pool",
+        "version": "v2.2.5",
+        "version_normalized": "2.2.5.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/mix-php/pool.git",
+            "reference": "0151ff2a059ab2e675371509852360492c2a4671"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/mix-php/pool/zipball/0151ff2a059ab2e675371509852360492c2a4671",
+            "reference": "0151ff2a059ab2e675371509852360492c2a4671",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "ext-swoole": ">=4.4.4",
+            "mix/bean": "~2.2.0",
+            "mix/concurrent": "~2.2.0",
+            "php": ">=7.0.0",
+            "psr/event-dispatcher": "^1.0"
+        },
+        "time": "2020-06-04T04:24:14+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Mix\\Pool\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache-2.0"
+        ],
+        "authors": [
+            {
+                "name": "liu,jian",
+                "email": "coder.keda@gmail.com"
+            }
+        ],
+        "description": "Swoole-based connection pool library",
+        "homepage": "http://www.mixphp.cn/",
+        "keywords": [
+            "connection-pool",
+            "mix",
+            "swoole"
+        ]
+    },
+    {
+        "name": "mix/redis",
+        "version": "v2.2.5",
+        "version_normalized": "2.2.5.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/mix-php/redis.git",
+            "reference": "445c362be73c672375ffbb9076a524af18a62c15"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/mix-php/redis/zipball/445c362be73c672375ffbb9076a524af18a62c15",
+            "reference": "445c362be73c672375ffbb9076a524af18a62c15",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "ext-redis": "*",
+            "ext-swoole": ">=4.4.4",
+            "mix/bean": "~2.2.0",
+            "mix/pool": "~2.2.0",
+            "php": ">=7.0.0",
+            "psr/event-dispatcher": "^1.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^7.0.0"
+        },
+        "time": "2020-06-04T04:24:14+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Mix\\Redis\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache-2.0"
+        ],
+        "authors": [
+            {
+                "name": "liu,jian",
+                "email": "coder.keda@gmail.com"
+            }
+        ],
+        "description": "Coroutine redis library based on Swoole, built-in connection pool",
+        "homepage": "http://www.mixphp.cn/",
+        "keywords": [
+            "connection-pool",
+            "coroutine",
+            "mix",
+            "redis",
+            "swoole"
+        ]
+    },
+    {
+        "name": "mix/redis-subscribe",
+        "version": "v2.2.2",
+        "version_normalized": "2.2.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/mix-php/redis-subscribe.git",
+            "reference": "70857f533fa21148cef275b99d794669d4ddf83f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/mix-php/redis-subscribe/zipball/70857f533fa21148cef275b99d794669d4ddf83f",
+            "reference": "70857f533fa21148cef275b99d794669d4ddf83f",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "ext-swoole": ">=4.4.4",
+            "mix/concurrent": "~2.2.0",
+            "php": ">=7.0.0"
+        },
+        "time": "2020-05-12T12:07:10+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Mix\\Redis\\Subscribe\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache-2.0"
+        ],
+        "authors": [
+            {
+                "name": "liu,jian",
+                "email": "coder.keda@gmail.com"
+            }
+        ],
+        "description": "Redis subscribe library based on Swoole coroutine",
+        "homepage": "http://www.mixphp.cn/",
+        "keywords": [
+            "mix",
+            "redis",
+            "subscribe",
+            "swoole"
+        ]
+    },
+    {
+        "name": "mix/server",
+        "version": "v2.2.2",
+        "version_normalized": "2.2.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/mix-php/server.git",
+            "reference": "d6a9b61b7a922e6b0b9f4ff5f0007fc0b1eabd90"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/mix-php/server/zipball/d6a9b61b7a922e6b0b9f4ff5f0007fc0b1eabd90",
+            "reference": "d6a9b61b7a922e6b0b9f4ff5f0007fc0b1eabd90",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "ext-swoole": ">=4.4.4",
+            "php": ">=7.0.0"
+        },
+        "time": "2020-05-16T07:48:55+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Mix\\Server\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache-2.0"
+        ],
+        "authors": [
+            {
+                "name": "liu,jian",
+                "email": "coder.keda@gmail.com"
+            }
+        ],
+        "description": "Tcp server library based on Swoole coroutine",
+        "homepage": "http://www.mixphp.cn/",
+        "keywords": [
+            "coroutine",
+            "mix",
+            "server",
+            "swoole",
+            "tcp"
+        ]
+    },
+    {
+        "name": "mix/session",
+        "version": "v2.2.4",
+        "version_normalized": "2.2.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/mix-php/session.git",
+            "reference": "535050682a55528ae21068c59397d2cd15535a0d"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/mix-php/session/zipball/535050682a55528ae21068c59397d2cd15535a0d",
+            "reference": "535050682a55528ae21068c59397d2cd15535a0d",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "mix/http-message": "~2.2.0",
+            "mix/redis": "~2.2.0",
+            "php": ">=7.0.0"
+        },
+        "time": "2020-06-07T15:38:31+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Mix\\Session\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache-2.0"
+        ],
+        "authors": [
+            {
+                "name": "liu,jian",
+                "email": "coder.keda@gmail.com"
+            }
+        ],
+        "description": "Session library based on Swoole coroutine Redis, following PSR-7 standard",
+        "homepage": "http://www.mixphp.cn/",
+        "keywords": [
+            "mix",
+            "redis",
+            "session"
+        ]
+    },
+    {
+        "name": "mix/sync-invoke",
+        "version": "v2.2.5",
+        "version_normalized": "2.2.5.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/mix-php/sync-invoke.git",
+            "reference": "aa87c0a2de7fe6a027ffb3bdc6877121866ccc58"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/mix-php/sync-invoke/zipball/aa87c0a2de7fe6a027ffb3bdc6877121866ccc58",
+            "reference": "aa87c0a2de7fe6a027ffb3bdc6877121866ccc58",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "ext-swoole": ">=4.4.4",
+            "mix/bean": "~2.2.0",
+            "mix/pool": "~2.2.0",
+            "mix/server": "~2.2.0",
+            "opis/closure": "^3.5",
+            "php": ">=7.0.0",
+            "psr/event-dispatcher": "^1.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^7.0.0"
+        },
+        "time": "2020-06-10T01:43:38+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Mix\\SyncInvoke\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache-2.0"
+        ],
+        "authors": [
+            {
+                "name": "liu,jian",
+                "email": "coder.keda@gmail.com"
+            }
+        ],
+        "description": "Swoole synchronous blocking code invoke library",
+        "homepage": "http://www.mixphp.cn/",
+        "keywords": [
+            "block",
+            "invoke",
+            "mix",
+            "swoole",
+            "sync"
+        ]
+    },
+    {
+        "name": "mix/validate",
+        "version": "v2.2.5",
+        "version_normalized": "2.2.5.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/mix-php/validate.git",
+            "reference": "1a2c37cb402047081c2f7f8b53ac9e3ffababc34"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/mix-php/validate/zipball/1a2c37cb402047081c2f7f8b53ac9e3ffababc34",
+            "reference": "1a2c37cb402047081c2f7f8b53ac9e3ffababc34",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "ext-mbstring": "*",
+            "mix/bean": "~2.2.0",
+            "php": ">=7.0.0",
+            "psr/http-message": "^1.0"
+        },
+        "time": "2020-05-27T09:55:50+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Mix\\Validate\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache-2.0"
+        ],
+        "authors": [
+            {
+                "name": "liu,jian",
+                "email": "coder.keda@gmail.com"
+            }
+        ],
+        "description": "Validate library, reference Yii2",
+        "homepage": "http://www.mixphp.cn/",
+        "keywords": [
+            "mix",
+            "validate"
+        ]
+    },
+    {
+        "name": "mix/view",
+        "version": "v2.2.6",
+        "version_normalized": "2.2.6.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/mix-php/view.git",
+            "reference": "b9c2af3c506485d0b891625be1a588df985b7ac2"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/mix-php/view/zipball/b9c2af3c506485d0b891625be1a588df985b7ac2",
+            "reference": "b9c2af3c506485d0b891625be1a588df985b7ac2",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "php": ">=7.0.0"
+        },
+        "time": "2020-06-22T10:52:10+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Mix\\View\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache-2.0"
+        ],
+        "authors": [
+            {
+                "name": "liu,jian",
+                "email": "coder.keda@gmail.com"
+            }
+        ],
+        "description": "View library, reference Yii2",
+        "homepage": "http://www.mixphp.cn/",
+        "keywords": [
+            "mix",
+            "view"
+        ]
+    },
+    {
+        "name": "mix/websocket",
+        "version": "v2.2.4",
+        "version_normalized": "2.2.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/mix-php/websocket.git",
+            "reference": "231570eb1365838bc27cb21624fdb9211d6f05f7"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/mix-php/websocket/zipball/231570eb1365838bc27cb21624fdb9211d6f05f7",
+            "reference": "231570eb1365838bc27cb21624fdb9211d6f05f7",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "ext-swoole": ">=4.4.15",
+            "mix/bean": "~2.2.0",
+            "mix/http-message": "~2.2.0",
+            "php": ">=7.0.0"
+        },
+        "require-dev": {
+            "mix/http-server": "~2.2.0",
+            "phpunit/phpunit": "^7.0.0"
+        },
+        "time": "2020-05-21T10:46:19+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Mix\\WebSocket\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache-2.0"
+        ],
+        "authors": [
+            {
+                "name": "liu,jian",
+                "email": "coder.keda@gmail.com"
+            }
+        ],
+        "description": "WebSocket library based on Swoole coroutine, including server and client",
+        "homepage": "http://www.mixphp.cn/",
+        "keywords": [
+            "client",
+            "coroutine",
+            "mix",
+            "server",
+            "swoole",
+            "websocket"
+        ]
+    },
+    {
+        "name": "monolog/monolog",
+        "version": "2.1.0",
+        "version_normalized": "2.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Seldaek/monolog.git",
+            "reference": "38914429aac460e8e4616c8cb486ecb40ec90bb1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Seldaek/monolog/zipball/38914429aac460e8e4616c8cb486ecb40ec90bb1",
+            "reference": "38914429aac460e8e4616c8cb486ecb40ec90bb1",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "php": ">=7.2",
+            "psr/log": "^1.0.1"
+        },
+        "provide": {
+            "psr/log-implementation": "1.0.0"
+        },
+        "require-dev": {
+            "aws/aws-sdk-php": "^2.4.9 || ^3.0",
+            "doctrine/couchdb": "~1.0@dev",
+            "elasticsearch/elasticsearch": "^6.0",
+            "graylog2/gelf-php": "^1.4.2",
+            "php-amqplib/php-amqplib": "~2.4",
+            "php-console/php-console": "^3.1.3",
+            "php-parallel-lint/php-parallel-lint": "^1.0",
+            "phpspec/prophecy": "^1.6.1",
+            "phpunit/phpunit": "^8.5",
+            "predis/predis": "^1.1",
+            "rollbar/rollbar": "^1.3",
+            "ruflin/elastica": ">=0.90 <3.0",
+            "swiftmailer/swiftmailer": "^5.3|^6.0"
+        },
+        "suggest": {
+            "aws/aws-sdk-php": "Allow sending log messages to AWS services like DynamoDB",
+            "doctrine/couchdb": "Allow sending log messages to a CouchDB server",
+            "elasticsearch/elasticsearch": "Allow sending log messages to an Elasticsearch server via official client",
+            "ext-amqp": "Allow sending log messages to an AMQP server (1.0+ required)",
+            "ext-mbstring": "Allow to work properly with unicode symbols",
+            "ext-mongodb": "Allow sending log messages to a MongoDB server (via driver)",
+            "graylog2/gelf-php": "Allow sending log messages to a GrayLog2 server",
+            "mongodb/mongodb": "Allow sending log messages to a MongoDB server (via library)",
+            "php-amqplib/php-amqplib": "Allow sending log messages to an AMQP server using php-amqplib",
+            "php-console/php-console": "Allow sending log messages to Google Chrome",
+            "rollbar/rollbar": "Allow sending log messages to Rollbar",
+            "ruflin/elastica": "Allow sending log messages to an Elastic Search server"
+        },
+        "time": "2020-05-22T08:12:19+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Monolog\\": "src/Monolog"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Jordi Boggiano",
+                "email": "j.boggiano@seld.be",
+                "homepage": "http://seld.be"
+            }
+        ],
+        "description": "Sends your logs to files, sockets, inboxes, databases and various web services",
+        "homepage": "http://github.com/Seldaek/monolog",
+        "keywords": [
+            "log",
+            "logging",
+            "psr-3"
+        ],
+        "funding": [
+            {
+                "url": "https://github.com/Seldaek",
+                "type": "github"
+            },
+            {
+                "url": "https://tidelift.com/funding/github/packagist/monolog/monolog",
+                "type": "tidelift"
+            }
+        ]
+    },
+    {
+        "name": "nikic/fast-route",
+        "version": "v1.3.0",
+        "version_normalized": "1.3.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/nikic/FastRoute.git",
+            "reference": "181d480e08d9476e61381e04a71b34dc0432e812"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/nikic/FastRoute/zipball/181d480e08d9476e61381e04a71b34dc0432e812",
+            "reference": "181d480e08d9476e61381e04a71b34dc0432e812",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "php": ">=5.4.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^4.8.35|~5.7"
+        },
+        "time": "2018-02-13T20:26:39+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "FastRoute\\": "src/"
+            },
+            "files": [
+                "src/functions.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Nikita Popov",
+                "email": "nikic@php.net"
+            }
+        ],
+        "description": "Fast request router for PHP",
+        "keywords": [
+            "router",
+            "routing"
+        ]
+    },
+    {
+        "name": "opis/closure",
+        "version": "3.5.5",
+        "version_normalized": "3.5.5.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/opis/closure.git",
+            "reference": "dec9fc5ecfca93f45cd6121f8e6f14457dff372c"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/opis/closure/zipball/dec9fc5ecfca93f45cd6121f8e6f14457dff372c",
+            "reference": "dec9fc5ecfca93f45cd6121f8e6f14457dff372c",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "php": "^5.4 || ^7.0"
+        },
+        "require-dev": {
+            "jeremeamia/superclosure": "^2.0",
+            "phpunit/phpunit": "^4.0 || ^5.0 || ^6.0 || ^7.0"
+        },
+        "time": "2020-06-17T14:59:55+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.5.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Opis\\Closure\\": "src/"
+            },
+            "files": [
+                "functions.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Marius Sarca",
+                "email": "marius.sarca@gmail.com"
+            },
+            {
+                "name": "Sorin Sarca",
+                "email": "sarca_sorin@hotmail.com"
+            }
+        ],
+        "description": "A library that can be used to serialize closures (anonymous functions) and arbitrary objects.",
+        "homepage": "https://opis.io/closure",
+        "keywords": [
+            "anonymous functions",
+            "closure",
+            "function",
+            "serializable",
+            "serialization",
+            "serialize"
+        ]
+    },
+    {
+        "name": "php-di/phpdoc-reader",
+        "version": "2.1.1",
+        "version_normalized": "2.1.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/PHP-DI/PhpDocReader.git",
+            "reference": "15678f7451c020226807f520efb867ad26fbbfcf"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/PHP-DI/PhpDocReader/zipball/15678f7451c020226807f520efb867ad26fbbfcf",
+            "reference": "15678f7451c020226807f520efb867ad26fbbfcf",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "php": ">=5.4.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "~4.6"
+        },
+        "time": "2019-09-26T11:24:58+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "PhpDocReader\\": "src/PhpDocReader"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "description": "PhpDocReader parses @var and @param values in PHP docblocks (supports namespaced class names with the same resolution rules as PHP)",
+        "keywords": [
+            "phpdoc",
+            "reflection"
+        ]
+    },
+    {
+        "name": "psr/container",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/php-fig/container.git",
+            "reference": "b7ce3b176482dbbc1245ebf52b181af44c2cf55f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/php-fig/container/zipball/b7ce3b176482dbbc1245ebf52b181af44c2cf55f",
+            "reference": "b7ce3b176482dbbc1245ebf52b181af44c2cf55f",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2017-02-14T16:28:37+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Psr\\Container\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "PHP-FIG",
+                "homepage": "http://www.php-fig.org/"
+            }
+        ],
+        "description": "Common Container Interface (PHP FIG PSR-11)",
+        "homepage": "https://github.com/php-fig/container",
+        "keywords": [
+            "PSR-11",
+            "container",
+            "container-interface",
+            "container-interop",
+            "psr"
+        ]
+    },
+    {
+        "name": "psr/event-dispatcher",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/php-fig/event-dispatcher.git",
+            "reference": "dbefd12671e8a14ec7f180cab83036ed26714bb0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/php-fig/event-dispatcher/zipball/dbefd12671e8a14ec7f180cab83036ed26714bb0",
+            "reference": "dbefd12671e8a14ec7f180cab83036ed26714bb0",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "php": ">=7.2.0"
+        },
+        "time": "2019-01-08T18:20:26+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Psr\\EventDispatcher\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "PHP-FIG",
+                "homepage": "http://www.php-fig.org/"
+            }
+        ],
+        "description": "Standard interfaces for event handling.",
+        "keywords": [
+            "events",
+            "psr",
+            "psr-14"
+        ]
+    },
+    {
+        "name": "psr/http-factory",
+        "version": "1.0.1",
+        "version_normalized": "1.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/php-fig/http-factory.git",
+            "reference": "12ac7fcd07e5b077433f5f2bee95b3a771bf61be"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/php-fig/http-factory/zipball/12ac7fcd07e5b077433f5f2bee95b3a771bf61be",
+            "reference": "12ac7fcd07e5b077433f5f2bee95b3a771bf61be",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "php": ">=7.0.0",
+            "psr/http-message": "^1.0"
+        },
+        "time": "2019-04-30T12:38:16+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Psr\\Http\\Message\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "PHP-FIG",
+                "homepage": "http://www.php-fig.org/"
+            }
+        ],
+        "description": "Common interfaces for PSR-7 HTTP message factories",
+        "keywords": [
+            "factory",
+            "http",
+            "message",
+            "psr",
+            "psr-17",
+            "psr-7",
+            "request",
+            "response"
+        ]
+    },
+    {
+        "name": "psr/http-message",
+        "version": "1.0.1",
+        "version_normalized": "1.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/php-fig/http-message.git",
+            "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/php-fig/http-message/zipball/f6561bf28d520154e4b0ec72be95418abe6d9363",
+            "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2016-08-06T14:39:51+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Psr\\Http\\Message\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "PHP-FIG",
+                "homepage": "http://www.php-fig.org/"
+            }
+        ],
+        "description": "Common interface for HTTP messages",
+        "homepage": "https://github.com/php-fig/http-message",
+        "keywords": [
+            "http",
+            "http-message",
+            "psr",
+            "psr-7",
+            "request",
+            "response"
+        ]
+    },
+    {
+        "name": "psr/http-server-handler",
+        "version": "1.0.1",
+        "version_normalized": "1.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/php-fig/http-server-handler.git",
+            "reference": "aff2f80e33b7f026ec96bb42f63242dc50ffcae7"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/php-fig/http-server-handler/zipball/aff2f80e33b7f026ec96bb42f63242dc50ffcae7",
+            "reference": "aff2f80e33b7f026ec96bb42f63242dc50ffcae7",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "php": ">=7.0",
+            "psr/http-message": "^1.0"
+        },
+        "time": "2018-10-30T16:46:14+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Psr\\Http\\Server\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "PHP-FIG",
+                "homepage": "http://www.php-fig.org/"
+            }
+        ],
+        "description": "Common interface for HTTP server-side request handler",
+        "keywords": [
+            "handler",
+            "http",
+            "http-interop",
+            "psr",
+            "psr-15",
+            "psr-7",
+            "request",
+            "response",
+            "server"
+        ]
+    },
+    {
+        "name": "psr/http-server-middleware",
+        "version": "1.0.1",
+        "version_normalized": "1.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/php-fig/http-server-middleware.git",
+            "reference": "2296f45510945530b9dceb8bcedb5cb84d40c5f5"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/php-fig/http-server-middleware/zipball/2296f45510945530b9dceb8bcedb5cb84d40c5f5",
+            "reference": "2296f45510945530b9dceb8bcedb5cb84d40c5f5",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "php": ">=7.0",
+            "psr/http-message": "^1.0",
+            "psr/http-server-handler": "^1.0"
+        },
+        "time": "2018-10-30T17:12:04+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Psr\\Http\\Server\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "PHP-FIG",
+                "homepage": "http://www.php-fig.org/"
+            }
+        ],
+        "description": "Common interface for HTTP server-side middleware",
+        "keywords": [
+            "http",
+            "http-interop",
+            "middleware",
+            "psr",
+            "psr-15",
+            "psr-7",
+            "request",
+            "response"
+        ]
+    },
+    {
+        "name": "psr/log",
+        "version": "1.1.3",
+        "version_normalized": "1.1.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/php-fig/log.git",
+            "reference": "0f73288fd15629204f9d42b7055f72dacbe811fc"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/php-fig/log/zipball/0f73288fd15629204f9d42b7055f72dacbe811fc",
+            "reference": "0f73288fd15629204f9d42b7055f72dacbe811fc",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2020-03-23T09:12:05+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.1.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Psr\\Log\\": "Psr/Log/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "PHP-FIG",
+                "homepage": "http://www.php-fig.org/"
+            }
+        ],
+        "description": "Common interface for logging libraries",
+        "homepage": "https://github.com/php-fig/log",
+        "keywords": [
+            "log",
+            "psr",
+            "psr-3"
+        ]
+    },
+    {
+        "name": "psr/simple-cache",
+        "version": "1.0.1",
+        "version_normalized": "1.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/php-fig/simple-cache.git",
+            "reference": "408d5eafb83c57f6365a3ca330ff23aa4a5fa39b"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/php-fig/simple-cache/zipball/408d5eafb83c57f6365a3ca330ff23aa4a5fa39b",
+            "reference": "408d5eafb83c57f6365a3ca330ff23aa4a5fa39b",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2017-10-23T01:57:42+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Psr\\SimpleCache\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "PHP-FIG",
+                "homepage": "http://www.php-fig.org/"
+            }
+        ],
+        "description": "Common interfaces for simple caching",
+        "keywords": [
+            "cache",
+            "caching",
+            "psr",
+            "psr-16",
+            "simple-cache"
+        ]
+    },
+    {
+        "name": "ralouphie/getallheaders",
+        "version": "3.0.3",
+        "version_normalized": "3.0.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/ralouphie/getallheaders.git",
+            "reference": "120b605dfeb996808c31b6477290a714d356e822"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/ralouphie/getallheaders/zipball/120b605dfeb996808c31b6477290a714d356e822",
+            "reference": "120b605dfeb996808c31b6477290a714d356e822",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "php": ">=5.6"
+        },
+        "require-dev": {
+            "php-coveralls/php-coveralls": "^2.1",
+            "phpunit/phpunit": "^5 || ^6.5"
+        },
+        "time": "2019-03-08T08:55:37+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "src/getallheaders.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Ralph Khattar",
+                "email": "ralph.khattar@gmail.com"
+            }
+        ],
+        "description": "A polyfill for getallheaders."
+    },
+    {
+        "name": "swoole/ide-helper",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/swoole/ide-helper.git",
+            "reference": "e45892fb913204fc776bdec019ca8b723e7249b1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/swoole/ide-helper/zipball/e45892fb913204fc776bdec019ca8b723e7249b1",
+            "reference": "e45892fb913204fc776bdec019ca8b723e7249b1",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require-dev": {
+            "guzzlehttp/guzzle": "~6.5.0",
+            "laminas/laminas-code": "~3.4.0",
+            "squizlabs/php_codesniffer": "~3.5.0",
+            "symfony/filesystem": "~4.0"
+        },
+        "time": "2020-05-28T19:17:49+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache-2.0"
+        ],
+        "authors": [
+            {
+                "name": "Team Swoole",
+                "email": "team@swoole.com"
+            }
+        ],
+        "description": "IDE help files for Swoole."
+    },
+    {
+        "name": "symfony/dotenv",
+        "version": "v4.4.10",
+        "version_normalized": "4.4.10.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/dotenv.git",
+            "reference": "24d734ab97c7fb8b4fa10c64ee0c344f2badfcf0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/dotenv/zipball/24d734ab97c7fb8b4fa10c64ee0c344f2badfcf0",
+            "reference": "24d734ab97c7fb8b4fa10c64ee0c344f2badfcf0",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "php": "^7.1.3"
+        },
+        "require-dev": {
+            "symfony/process": "^3.4.2|^4.0|^5.0"
+        },
+        "time": "2020-05-26T09:42:42+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "4.4-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\Dotenv\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Registers environment variables from a .env file",
+        "homepage": "https://symfony.com",
+        "keywords": [
+            "dotenv",
+            "env",
+            "environment"
+        ],
+        "funding": [
+            {
+                "url": "https://symfony.com/sponsor",
+                "type": "custom"
+            },
+            {
+                "url": "https://github.com/fabpot",
+                "type": "github"
+            },
+            {
+                "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                "type": "tidelift"
+            }
+        ]
+    }
+]
